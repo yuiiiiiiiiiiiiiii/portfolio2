@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Shippori Mincho", serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.2;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.page-header,
+.page-hero,
+.page-content,
+.page-footer {
+    /*min-width: 1280px;*/
+    width: 100%;
+}
+.page-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+    border: solid 1px #000000;
+}
+.menu-list {
+    text-align: end;
+}
+.menu-list_item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.page-heading {
+    display: inline-block;
+    width: 290px;
+    font-size: 48px;
+    padding-top: 48px ;
+    padding-bottom:  8px ;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 80px auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+.header1 {
+    margin:0px;
+	padding:0px;
+	font-size:15px;
+}
+.img {
+    width: 298px;
+    height: 298px;
+    align-items: center;
+}
+.section-title {
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+}
+.feature-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-list__item {
+    margin-top: 24px;
+    margin-bottom: 80px;
+    width: 288px;
+    height: 432px;
+}
+.feature-list__item img {
+    padding: 16px;
+    width: 288px;
+    height: 288px;
+}
+.feature-list__item h3 {
+    font-size: 24px;
+    margin: 16px;
+     }
+.page-footer { 
+    text-align: center;
+    padding: 50px 0;
+    background-color: #DEF7FF;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+  }
+  .page-footer-text {
+    color: #000000;
+  }
+  .footer-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
